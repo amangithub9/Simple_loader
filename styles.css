@@ -1,0 +1,19 @@
+.loader{
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 10px solid #F79433;
+    animation: spin 1s infinite linear;
+    margin:200px auto;
+}
+
+/* Let's add Keyframes */
+@keyframes spin{
+    0%{
+  transform:rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
